@@ -29,7 +29,7 @@ class VersionCatalogGenerator:
             for lib in lib_group.libs:
                 self.libs_version_catalog.write(
                     lib.name
-                    + " = { id = \""
+                    + " = { group = \""
                     + lib.group
                     + "\", name = \""
                     + lib.name
